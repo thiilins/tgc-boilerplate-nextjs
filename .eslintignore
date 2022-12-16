@@ -1,2 +1,5 @@
-// Inside your .eslintignore file
+# .estlintignore file
+dist
+build
+node_modules/
 !.storybook
