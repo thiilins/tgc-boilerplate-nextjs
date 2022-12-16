@@ -10,7 +10,11 @@ const createJestConfig = nextJest({
 const customJestConfig = {
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   collectCoverage: true,
-  collectCoverageFrom: ['src/**/*.ts(x)'],
+  collectCoverageFrom: [
+    'src/**/*.ts(x)?',
+    '!src/**/stories.tsx',
+    '!src/styles/**/*'
+  ],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   transform: {
     '^.+\\.(js|jsx|ts|tsx)$': ['babel-jest', { presets: ['next/babel'] }]

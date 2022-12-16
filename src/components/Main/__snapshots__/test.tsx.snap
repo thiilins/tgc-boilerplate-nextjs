@@ -44,8 +44,8 @@ exports[`<Main /> should render the colors correctly 1`] = `
     decoding="async"
     height="50"
     loading="lazy"
-    src="/_next/image?url=%2Fimg%2Ficon_192.png%20&w=128&q=75"
-    srcset="/_next/image?url=%2Fimg%2Ficon_192.png%20&w=64&q=75 1x, /_next/image?url=%2Fimg%2Ficon_192.png%20&w=128&q=75 2x"
+    src="/_next/image?url=%2Fassets%2Ficons%2F192x192.png&w=128&q=75"
+    srcset="/_next/image?url=%2Fassets%2Ficons%2F192x192.png&w=64&q=75 1x, /_next/image?url=%2Fassets%2Ficons%2F192x192.png&w=128&q=75 2x"
     style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
     width="50"
   />
@@ -65,8 +65,8 @@ exports[`<Main /> should render the colors correctly 1`] = `
     decoding="async"
     height="300"
     loading="lazy"
-    src="/img/hero-illustration.svg"
-    srcset="/img/hero-illustration.svg 1x, /img/hero-illustration.svg 2x"
+    src="/assets/img/hero-illustration.svg"
+    srcset="/assets/img/hero-illustration.svg 1x, /assets/img/hero-illustration.svg 2x"
     style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
     width="300"
   />
