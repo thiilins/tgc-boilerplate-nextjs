@@ -1,9 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Main /> should render the heading 1`] = `
-<main>
-  <h1>
-    Hello World
+exports[`<Main /> should render the colors correctly 1`] = `
+<main
+  class="sc-afac2ad-0 ticEG"
+>
+  <img
+    alt=""
+    data-nimg="1"
+    decoding="async"
+    height="50"
+    loading="lazy"
+    src="/_next/image?url=%2Fimg%2Ficon_192.png%20&w=128&q=75"
+    srcset="/_next/image?url=%2Fimg%2Ficon_192.png%20&w=64&q=75 1x, /_next/image?url=%2Fimg%2Ficon_192.png%20&w=128&q=75 2x"
+    style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+    width="50"
+  />
+  <h1
+    class="sc-afac2ad-1 hEQpCF"
+  >
+    Boilerplate Next + Typescript
   </h1>
+  <h2
+    class="sc-afac2ad-2 dqDiGM"
+  >
+    TypeScript, ReactJS, NextJS e Styled Components
+  </h2>
+  <img
+    alt="Um desenvolvedor de frente para uma tela com código."
+    data-nimg="1"
+    decoding="async"
+    height="300"
+    loading="lazy"
+    src="/img/hero-illustration.svg"
+    srcset="/img/hero-illustration.svg 1x, /img/hero-illustration.svg 2x"
+    style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+    width="300"
+  />
 </main>
 `;
