@@ -6,7 +6,7 @@ const Main = ({
 }) => (
   <S.Wrapper>
     <Image
-      src="/img/icon_192.png"
+      src="/assets/icons/192x192.png"
       alt=""
       placeholder="blur"
       blurDataURL="data:..."
@@ -16,7 +16,7 @@ const Main = ({
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>
     <Image
-      src="/img/hero-illustration.svg"
+      src="/assets/img/hero-illustration.svg"
       alt="Um desenvolvedor de frente para uma tela com código."
       placeholder="blur"
       blurDataURL="data:..."
