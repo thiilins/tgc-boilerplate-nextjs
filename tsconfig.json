@@ -2,14 +2,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "incremental": true,
@@ -18,34 +14,18 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-     "jsx": "react-jsx",
+    "jsx": "preserve",
     "paths": {
-      "@styles/*": [
-        "src/styles/*"
-      ],
-      "@components/*": [
-        "src/shared/components/*"
-      ],
-      "@utils/*": [
-        "src/shared/*"
-      ],
-      "@/*": [
-        "src/*"
-      ]
-    },
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ]
+      "@styles/*": ["src/styles/*"],
+      "@components/*": ["src/shared/components/*"],
+      "@utils/*": ["src/shared/*"],
+      "@/*": ["src/*"]
+    }
   },
   "include": [
-    "src",
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx",
-    "jest.config.js",
-    ".next/types/**/*.ts"
+    "**/*.tsx"
   ],
   "exclude": [
     "node_modules"
