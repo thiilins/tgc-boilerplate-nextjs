@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import { Description, Title, Wrapper } from '@styles/pages/home'
-import Image from 'next/image'
+import * as S from '@styles/pages/home'
+import { DefaultImage } from '@components/DefaultImage'
 interface IProps {
   title?: string
 }
@@ -12,8 +12,8 @@ export default function Home({
       <Head>
         <title>{title}</title>
       </Head>
-      <Wrapper>
-        <Image
+      <S.Wrapper>
+        <DefaultImage
           alt=""
           src="/img/icon_192.png "
           placeholder="blur"
@@ -21,11 +21,11 @@ export default function Home({
           height={50}
           blurDataURL="data:..."
         />
-        <Title>Boilerplate Next + Typescript</Title>
-        <Description>
+        <S.Title>Boilerplate Next + Typescript</S.Title>
+        <S.Description>
           TypeScript, ReactJS, NextJS e Styled Components
-        </Description>
-        <Image
+        </S.Description>
+        <DefaultImage
           src="/img/hero-illustration.svg"
           alt="Um desenvolvedor de frente para uma tela com código."
           placeholder="blur"
@@ -33,7 +33,7 @@ export default function Home({
           width={300}
           height={300}
         />
-      </Wrapper>
+      </S.Wrapper>
     </>
   )
 }

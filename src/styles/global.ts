@@ -43,7 +43,9 @@ ${({ theme }) => css`
     ::-webkit-scrollbar {
       width: 5px;
     }
-
+    .x {
+      display: flex;
+    }
     ::-webkit-scrollbar-track {
       background: ${theme.colors.primary}30;
     }
