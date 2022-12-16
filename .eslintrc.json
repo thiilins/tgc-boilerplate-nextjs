@@ -2,8 +2,8 @@
   "env": {
     "browser": true,
     "es2021": true,
-    "jest":true,
-    "node":true
+    "jest": true,
+    "node": true
   },
   "settings": {
     "react": {
@@ -30,6 +30,7 @@
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "import/no-anonymous-default-export": "off"
   }
 }

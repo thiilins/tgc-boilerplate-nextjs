@@ -1,9 +1,9 @@
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import { ThemeProvider } from 'styled-components'
-import GlobalStyles from '@/styles/global'
 import { dark } from '@/styles/themes/dark'
 import { light } from '@/styles/themes/light'
+import GlobalStyles from '@/styles/global'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>

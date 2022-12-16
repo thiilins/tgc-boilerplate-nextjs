@@ -7,6 +7,7 @@ export const Wrapper = styled.main`
   height: 100%;
   padding: 3rem;
   text-align: center;
+  gap: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;

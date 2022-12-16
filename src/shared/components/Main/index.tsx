@@ -1,19 +1,20 @@
 import Image from 'next/image'
 import * as S from './styles'
-const Main = () => (
+const Main = ({
+  title = 'Boilerplate Next + Typescript',
+  description = 'TypeScript, ReactJS, NextJS e Styled Components'
+}) => (
   <S.Wrapper>
     <Image
+      src="/img/icon_192.png"
       alt=""
-      src="/img/icon_192.png "
       placeholder="blur"
+      blurDataURL="data:..."
       width={50}
       height={50}
-      blurDataURL="data:..."
     />
-    <S.Title>Boilerplate Next + Typescript</S.Title>
-    <S.Description>
-      TypeScript, ReactJS, NextJS e Styled Components
-    </S.Description>
+    <S.Title>{title}</S.Title>
+    <S.Description>{description}</S.Description>
     <Image
       src="/img/hero-illustration.svg"
       alt="Um desenvolvedor de frente para uma tela com código."
