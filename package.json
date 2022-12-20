@@ -32,7 +32,6 @@
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.5",
     "@storybook/addon-essentials": "^6.5.14",
     "@storybook/builder-webpack5": "^6.5.14",
     "@storybook/manager-webpack5": "^6.5.14",
