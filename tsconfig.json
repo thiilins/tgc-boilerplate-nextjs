@@ -16,10 +16,9 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "paths": {
+      "@*": ["src/*"],
       "@styles/*": ["src/styles/*"],
-      "@components/*": ["src/components/*"],
       "@utils/*": ["src/shared/*"],
-      "@/*": ["src/*"],
       "@public/*": ["public/*"]
     },
     "plugins": [
