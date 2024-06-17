@@ -57,7 +57,7 @@
     "jest-styled-components": "^7.1.1",
     "lint-staged": "^15.0.1",
     "plop": "^4.0.0",
-    "prettier": "3.3.0",
+    "prettier": "3.3.2",
     "storybook-addon-next": "^1.7.1",
     "typescript": "^5.0.3",
     "typescript-styled-plugin": "^0.18.2"
